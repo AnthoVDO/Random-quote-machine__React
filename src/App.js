@@ -1,13 +1,14 @@
-import Generator from "./components/Generator";
-import Header from "./components/Header";
 import "./style/App.scss";
+import Wrapper from "./components/Wrapper";
 
 
 function App() {
   return (
-    <div className="App" id="quote-box">
-    <Header/>
-    <Generator/>
+    <div className="App vh-100 vw-100" id="quote-box">
+    
+    <Wrapper />
+  
+    
      
     </div>
   );
