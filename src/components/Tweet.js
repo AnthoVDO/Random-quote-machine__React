@@ -2,12 +2,12 @@ import React from 'react';
 
 const Tweet = () => {
     return (
-        <div>
+        <>
         
-            <button id="tweet-quote"><a href="twitter.com/intent/tweet" target="_blank">Tweet</a></button>
+            <button id="tweet-quote" className="mt-5 d-block btn btn-primary "><a href="twitter.com/intent/tweet" className="text-light" target="_blank">Tweet</a></button>
         
             
-        </div>
+        </>
     );
 };
 

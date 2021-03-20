@@ -2,11 +2,11 @@ import React from 'react';
 
 const Generate = () => {
     return (
-        <div>
+        <>
        
-<button>Generate Quote</button>
+<button className="d-block mb-5 btn bg-customRed text-light" >Generate Quote</button>
            
-        </div>
+        </>
     );
 };
 
