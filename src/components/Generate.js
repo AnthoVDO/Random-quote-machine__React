@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Generate = () => {
+const Generate = ({changeQuote}) => {
     return (
         <>
        
-<button className="d-block mb-5 btn bg-customRed text-light" >Generate Quote</button>
+<button id="new-quote" className="d-block mb-5 btn bg-customRed text-light" onClick={changeQuote} >Generate Quote</button>
            
         </>
     );
